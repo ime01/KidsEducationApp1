@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/Question_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            style="@style/AnswersView"
+            android:text="From the experience, which is the primary producer ?" />
+
+        <RadioGroup
+            android:id="@+id/Question_1_Options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/option_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The Frog" />
+
+            <RadioButton
+                android:id="@+id/option_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The Hawk" />
+
+            <RadioButton
+                android:id="@+id/option_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The Grass" />
+
+            <RadioButton
+                android:id="@+id/option_D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The GrassHopper" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/Question_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            style="@style/AnswersView"
+            android:text="From the experience, which is the predator of the Grasshopper?" />
+
+        <RadioGroup
+            android:id="@+id/Question_2_Options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Option_2A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The hawk" />
+
+            <RadioButton
+                android:id="@+id/Option_2B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The Frog" />
+
+            <RadioButton
+                android:id="@+id/Option_2C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The Snake" />
+
+            <RadioButton
+                android:id="@+id/Option_2D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The GrassHopper" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/Question_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            style="@style/AnswersView"
+            android:text="From the experience, which is the natural habitat of the frog?" />
+
+        <RadioGroup
+            android:id="@+id/Question_3_Options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Option_3A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Desert" />
+
+            <RadioButton
+                android:id="@+id/Option_3B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Oceans" />
+
+            <RadioButton
+                android:id="@+id/Option_3C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ponds and Wetlands" />
+
+            <RadioButton
+                android:id="@+id/Option_3D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="On a tree" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/Question_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            style="@style/AnswersView"
+            android:text="From the experience, does enegry increases up the food chain ?" />
+
+        <RadioGroup
+            android:id="@+id/Question_4_Options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Option_4A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="True" />
+
+            <RadioButton
+                android:id="@+id/Option_4B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="None of the above" />
+
+            <RadioButton
+                android:id="@+id/Option_4C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="False" />
+
+            <RadioButton
+                android:id="@+id/Option_4D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="All of the above" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/Question_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            style="@style/AnswersView"
+            android:text="From the experience, which is the prey of the Snake?" />
+
+        <RadioGroup
+            android:id="@+id/Question_5_Options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Option_5A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The hawk" />
+
+            <RadioButton
+                android:id="@+id/Option_5B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The grasshopper" />
+
+            <RadioButton
+                android:id="@+id/Option_5C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The grass" />
+
+            <RadioButton
+                android:id="@+id/Option_5D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The frog" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/SubmitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:onClick="submit"
+            android:text="SUBMIT" />
+
+    </LinearLayout>
+
+</ScrollView>
